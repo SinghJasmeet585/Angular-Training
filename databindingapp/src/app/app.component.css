@@ -1,0 +1,19 @@
+.container{
+    color: red;
+    text-align: center;
+}
+
+button{
+    padding: 0.8em;
+    background-color: blue;
+    color:white;
+    
+}
+
+.img-ht{
+    height: 50;
+}
+
+.example-spacer{
+    flex: 1 1 auto;
+}

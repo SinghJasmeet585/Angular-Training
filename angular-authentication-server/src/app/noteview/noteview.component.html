@@ -1,0 +1,10 @@
+<p>
+    noteview works!
+</p>
+
+<mat-card class="noteCard" *ngFor="let mynote of notes">
+    <mat-card-title>{{mynote.title}}</mat-card-title>
+    <mat-card-content>
+        {{mynote.text}}
+    </mat-card-content>
+</mat-card>

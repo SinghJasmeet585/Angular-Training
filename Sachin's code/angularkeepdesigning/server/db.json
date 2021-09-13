@@ -1,0 +1,64 @@
+{
+  "notes": [
+    {
+      "id": 1,
+      "title": "My first Note",
+      "text": "Hello this is my First angular keep note"
+    },
+    {
+      "id": 2,
+      "title": "My Second Note",
+      "text": "Hello this is my Second angular keep note"
+    },
+    {
+      "title": "keep note",
+      "text": "hello this is my note",
+      "id": 3
+    },
+    {
+      "title": "keep note",
+      "text": "hello this is my note",
+      "id": 4
+    },
+    {
+      "title": "keep note",
+      "text": "hello this is my note",
+      "id": 5
+    },
+    {
+      "title": "this is dummy",
+      "text": "dummy Data",
+      "id": 6
+    },
+    {
+      "title": "Sachin",
+      "text": "hello Sachin",
+      "id": 7
+    },
+    {
+      "title": "sdmkf",
+      "text": "dsajjkksafd",
+      "id": 8
+    },
+    {
+      "title": "csjflsdj",
+      "text": "sfkjklsdfjfds",
+      "id": 9
+    },
+    {
+      "title": "asdjlkjDA",
+      "text": ";KLFSDA;LFKDS",
+      "id": 10
+    },
+    {
+      "title": "askljdld",
+      "text": "asflkjlkdsfa",
+      "id": 11
+    },
+    {
+      "title": "jasmeet",
+      "text": "jasmeet first note\n",
+      "id": 12
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+<h1>Profile Information</h1>
+
+<form [formGroup]="profileForm">
+
+    <div class="container-fluid">
+        <div class="form-group">
+            <label for="fname">First Name</label>
+            <input id="fname" class="form-control" type="text" formControlName="firstname">
+        </div>
+
+        <div class="form-group">
+            <label for="lname">Last Name</label>
+            <input id="lname" class="form-control" type="text" formControlName="lastname">
+        </div>
+
+        <div class="form-group">
+            <label for="email">E-Mail</label>
+            <input id="email" class="form-control" type="text" formControlName="email">
+        </div>
+
+        <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input id="phone" class="form-control" type="number" formControlName="phone">
+            <span *ngIf="profileForm.get('phone').invalid">Enter only 10 digits</span>        
+        </div>
+
+
+          <div class="form-check">
+            <input class="form-check-input" type="radio" formControlName="gender" value="male" id="radiomale">
+            <label class="form-check-label" for="radiomale">
+              Male
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" formControlName="gender" value="female" id="radiofemale" checked>
+            <label class="form-check-label" for="radiofemale">
+              Female
+            </label>
+          </div>
+
+
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="terms" id="terms" formControlName="terms">
+            <label class="form-check-label" for="terms">
+              Terms and Conditions
+            </label>
+          </div>
+
+        <div class="form-group">
+            <input (click)="setProfileData()" id="" class="form-control" class="btn btn-primary" type="submit" value="submit" [disabled]="profileForm.invalid">
+        </div>
+
+    </div>
+</form>

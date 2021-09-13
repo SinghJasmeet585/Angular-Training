@@ -1,0 +1,22 @@
+<p>Login Page</p>
+<label class="error-message">{{ submitMessage }}</label>
+<form (ngSubmit)="loginSubmit()">
+    <div class="container-fluid">
+
+            <label for="username">Username</label>
+            <input id="username" class="username" type="text" matInput [formControl]="username">
+            <span *ngIf="username.invalid && (username.dirty || username.touched)">*Username is mandatory</span>
+     
+
+            <label for="password">Password</label>
+            <input id="password" class="password"  matInput type="password" [formControl]="password">
+            <span *ngIf="password.invalid && (password.dirty || password.touched)">
+                <span *ngIf="password.errors.required">*Password is mandatory</span>
+                <span *ngIf="password.errors.minLength">Must be 8 characters</span>
+            </span>
+            
+        <div class="form-group">
+            <button class="btn btn-primary" type="submit" mat-button>Submit</button>
+        </div>
+    </div>
+</form>

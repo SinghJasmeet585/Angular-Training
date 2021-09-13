@@ -1,0 +1,22 @@
+{
+  "profile": [
+    {
+      "firstname": "jas",
+      "lastname": "sin",
+      "email": "jas@gmail",
+      "phone": 1111111111,
+      "terms": true,
+      "gender": "male",
+      "id": 1
+    },
+    {
+      "firstname": "deepak",
+      "lastname": "yadav",
+      "email": "deepak.yadav1@gmail.com",
+      "phone": 1234567898,
+      "terms": true,
+      "gender": "female",
+      "id": 2
+    }
+  ]
+}

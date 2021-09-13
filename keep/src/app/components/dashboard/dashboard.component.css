@@ -1,0 +1,23 @@
+.expansion-container{
+    width: 40vw;
+    margin: 5vh auto;
+}
+
+/* .example-form{
+    width:100%;
+} */
+
+.example-full-width{
+    width:100%;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+.example-card{
+    margin: 1em;
+  }

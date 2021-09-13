@@ -1,0 +1,12 @@
+<p>
+    noteview works!
+</p>
+<div *ngIf="notes.length == 0 ">
+    <label>List is Empty</label>
+</div>
+<!-- Load and display the collection of notes from server as Material Cards with card title set to note title and card content set to note text  -->
+<div *ngIf="notes.length > 0">
+    <app-note [note]="mynote" *ngFor="let mynote of notes"></app-note>
+</div>
+
+<!-- noteView-> note using @Input -->

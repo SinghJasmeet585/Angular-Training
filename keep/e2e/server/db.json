@@ -1,0 +1,34 @@
+{
+  "notes": [
+    {
+      "id": 1,
+      "title": "My first note",
+      "text": "Hello first world"
+    },
+    {
+      "id": 2,
+      "title": "My second note",
+      "text": "Hello second world"
+    },
+    {
+      "title": "My third note",
+      "text": "hello third world",
+      "id": 3
+    },
+    {
+      "title": "My fourth note",
+      "text": "hello fourth world",
+      "id": 4
+    },
+    {
+      "title": "jasmeet",
+      "text": "mybd",
+      "id": 5
+    },
+    {
+      "title": "fdjfd",
+      "text": "ss",
+      "id": 6
+    }
+  ]
+}
